@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.linkedin.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_LinkedIn Log In or Sign Up/div_Continue with GoogleContinue with Google'))
+
